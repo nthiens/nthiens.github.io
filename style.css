@@ -171,7 +171,7 @@ li {
 }
 
 #upper {
-    background-color: red;
+    /* background-color: red; */
     height: 20vw;
     display: flex;
     justify-content: space-between;
@@ -181,7 +181,41 @@ li {
     background-color: rgb(17, 17, 17);
     height: 100%;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
+
+.project:hover {
+    background-color: red;
+    transform: scale(1.04);
+}
+
+.pname {
+    background-color: black;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    width: calc(100% - 1rem);
+    background-color: rgba(0, 0, 0, 0.637); /* semi-transparent black */
+    backdrop-filter: blur(8px);          /* applies blur to what's behind */
+    -webkit-backdrop-filter: blur(8px);  /* for Safari support */
+    white-space: nowrap;       /* prevent line breaks */
+    overflow: hidden;          /* hide overflowing text */
+    text-overflow: ellipsis;   /* show ... */
+}
+
 
 #projects a {
     margin-top: 0.5rem;
@@ -219,11 +253,38 @@ h3 {
 }
 
 .more {
-        margin-top: 0.5rem;
+    margin-top: 0.5rem;
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     /* line-height: 1.5; */
     letter-spacing: 0.5px;
     font-weight: 700;
     margin-right: 0;
+}
+
+.more a {
+    display: inline-block; /* Needed for transform to work smoothly */
+    transition: transform 0.3s ease;
+  }
+  
+.more:hover {
+    transform: translateX(20px);
+    cursor: pointer;
+  }
+
+#blog a, #learn a {
+    transition: transform 0.3s ease;
+}
+
+#blog a:hover, #learn a:hover {
+    transform: translateX(10px);
+}
+
+#navigation img{
+    transition: transform 0.3s ease;
+}
+
+#navigation img:hover {
+    transform:scale(1.4);
+    cursor: pointer;
 }
