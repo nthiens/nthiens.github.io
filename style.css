@@ -350,3 +350,10 @@ a.nav{
 h1.title {
     font-size: 3rem;
 }
+
+#navigation-main {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 1rem;
+}
