@@ -240,9 +240,9 @@ h3 {
     font-weight: 500;
     background-color: transparent;
     margin-left: 0;
-    font-size: 2rem;
+    font-size: 1.3rem;
     margin-bottom: 0.8rem;
-    margin-top: 0;
+    margin-top: 1rem;
 }
 
 #blog, #learn {
@@ -333,7 +333,7 @@ h3 {
 
 a.nav{
     margin: 0;
-    width: 4rem;
+    width: 12rem;
 }
 
 #navigation {
@@ -357,3 +357,124 @@ h1.title {
     background-color: transparent;
     margin-top: 1rem;
 }
+
+.writeup {
+    background-color: transparent;
+    margin-bottom: 6rem;
+}
+
+.image {
+    height: auto;
+    width:50vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.MJX-TEX, .MJX-TEX * {
+    margin: 0.012rem !important;
+    padding: 0.012rem !important;
+    /* letter-spacing: 5.15em !important; */
+  }
+
+  html mjx-assistive-mml {
+    width: 0 !important;
+    max-width: 0 !important;
+    overflow: hidden !important;
+    display: block !important;
+    position: absolute !important; /* keeps it out of flow */
+    left: 0 !important;            /* ensures no offset */
+    height: 0 !important;          /* collapse height too */
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+
+.MathJax {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    font-size: 150%; /* increase size to 1.5 times */
+}
+
+.MathJax_Display {
+    letter-spacing: 0.15em; /* display math */
+  }
+  
+  .MathJax {
+    letter-spacing: 0.1em; /* inline math */
+  }
+
+.bold {
+    font-weight: 700;
+}
+
+pre {
+    /* background-color: rgb(155, 152, 152); */
+    margin-left: 0;
+    margin-right: 0;
+    width: fit-content;
+    padding: 1rem;
+    padding-top: 0;
+    border: 1px solid black; /* added border */
+}
+
+i, span {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.art-link {
+    margin: 0;
+    margin-bottom: px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.3s ease;
+}
+
+.art-link {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: underline solid;
+    transition: color 0.4s ease-out, background-color 0.4s ease-out;
+  }
+  
+.art-link:hover {
+    color: white;
+    background-color: black;
+  }
+
+.downloads {
+    margin-top: 2rem;
+    font-family: "Jost", sans-serif
+}
+
+.downloads p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+.downloads a {
+    font-size: 1.2rem;
+    font-family: "Jost", sans-serif;
+}
+
+.downloads a {
+    font-weight: 400;
+}
+
+footer {
+    margin: 0;
+    width: auto;
+    /* background-color: red; */
+    height: 50px;
+    font-family: "Jost", sans-serif;
+}
+
+/* .writeup p {
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: 21px;
+} */
