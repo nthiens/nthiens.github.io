@@ -26,6 +26,10 @@ h2{
     font-family: "Jost", sans-serif;
     font-weight: 500;
     background-color: transparent;
+    margin-left: 0;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0;
 }
 
 p{
@@ -46,7 +50,7 @@ div {
 
 #left {
     background-color: transparent;
-    width: 30%;
+    width: 20%;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -108,7 +112,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: transparent;
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 .nav {
@@ -162,7 +166,7 @@ li {
     }
     #right {
        width: 60%;
-       margin-left: 40%;
+       margin-left: 30%;
     }
   }
 
@@ -207,7 +211,7 @@ li {
     padding-top: 1rem;
     padding-right: 1rem;
     position: absolute;
-    width: calc(100% - 1rem);
+    width: calc(100% - 2rem);
     background-color: rgba(0, 0, 0, 0.637); /* semi-transparent black */
     backdrop-filter: blur(8px);          /* applies blur to what's behind */
     -webkit-backdrop-filter: blur(8px);  /* for Safari support */
@@ -287,4 +291,62 @@ h3 {
 #navigation img:hover {
     transform:scale(1.4);
     cursor: pointer;
+}
+
+.name{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    margin-top: 0;
+    letter-spacing: 0px;
+    margin-top: 0.4rem;
+}
+
+.section {
+    transition: transform 0.3s ease;
+    margin-bottom: 2.5rem;
+}
+.section:hover {
+    transform: translateX(10px);
+    cursor: pointer;
+}
+
+.sec-inner {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+}
+
+.sec-image {
+    height: auto;
+    width: 0%;
+    background-color: pink;
+}
+
+a.nav{
+    margin: 0;
+    width: 4rem;
+}
+
+#navigation {
+    width: 10rem;
+}
+
+.title {
+    /* background-color: red; */
+    margin-left: 30%;
+    margin-right: 0;
+    text-align: left;
+}
+
+h1.title {
+    font-size: 3rem;
 }
